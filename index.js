@@ -15,8 +15,7 @@ App.use(express.json());
 
 App.set("view engine", "ejs");
 
-const mongo_uri =
-  "mongodb+srv://hodlinfo:UDDastSx0GSZHpvE@cluster0.unrezx6.mongodb.net/?retryWrites=true&w=majority";
+const mongo_uri = "";
 const PORT = process.env.PORT || 8500;
 
 mongoose
